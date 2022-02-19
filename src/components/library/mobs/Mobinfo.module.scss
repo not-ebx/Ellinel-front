@@ -13,11 +13,17 @@
 .mobData {
   display: flex;
 
-  img{
-    flex-grow: 3;
+  img {
+    margin: auto auto auto auto;
+    max-width: 10rem;
+    max-height: 10rem;
   }
 }
 
-.mobStats{
-  flex-grow: 1;
+.mobStats {
+  
+  .mobName{
+    font-size: 2rem;
+    font-weight: bold;
+  }
 }

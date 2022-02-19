@@ -1,0 +1,37 @@
+.searchModule {
+    display: grid;
+    place-items: center;
+}
+
+.searchBar {
+  @apply border-2 border-slate-50 p-2 rounded-md shadow-md bg-white;
+  
+  &:focus-within {
+    outline: 2px;
+    border-color: rgb(147, 194, 248);
+    border-style: solid;    
+  }
+}
+
+.searchChip {
+  display: flex;
+  width:100%;
+  input{
+    border: none;
+    appearance: none;
+  }
+  span{
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #c2c2c2;
+  }
+}
+
+.searchInput {
+  @apply mt-auto text-lg w-full h-full p-1 text-black;
+  
+  &:focus {
+    outline: 0;
+  }
+}
