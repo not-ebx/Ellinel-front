@@ -1,0 +1,59 @@
+.searchModule {
+  display: grid;
+  place-items: center;
+}
+
+.searchBar {
+  width:50%;
+  background: #fff;
+  border: 1px;
+  border-color: rgb(221, 221, 221);
+  border-style: solid;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px 1px rgba($color: #000000, $alpha: 0.3);
+  
+  &:focus-within {
+    outline: 2px;
+    border-color: rgb(95, 95, 170);
+    border-style: solid;    
+  }
+}
+
+.searchContents {
+  display: flex;
+}
+
+.searchIcon {
+  margin: 0 1rem 0 0.5rem;
+}
+
+.searchChip {
+  display: flex;
+  width:100%;
+  input{
+    border: none;
+    appearance: none;
+  }
+  span{
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #c2c2c2;
+  }
+}
+
+.searchInput {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: large;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  color: black;
+  box-shadow: 1px;
+
+  &:focus {
+    outline: 0;
+  }
+}

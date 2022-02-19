@@ -1,0 +1,23 @@
+// rounded-md shadow-lg items-center mx-auto p-6 space-x-4 max-w-2xl
+.mobInfoWindow{
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(151, 151, 151);
+  border-radius: 10px;
+  box-shadow: 4px 1px 10px ;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 6px 6px 6px;
+}
+
+.mobData {
+  display: flex;
+
+  img{
+    flex-grow: 3;
+  }
+}
+
+.mobStats{
+  flex-grow: 1;
+}

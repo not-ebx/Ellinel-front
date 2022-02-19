@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { SearchBar } from '../components/SearchBar'
+import { SearchBar } from '../components/search/SearchBar'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
